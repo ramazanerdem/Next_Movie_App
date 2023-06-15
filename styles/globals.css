@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  color: #fff;
+  /* font-family: 'Inter', sans-serif; */
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  scrollbar-color: black;
+}
+
+/* 
+.custom_container {
+  display: grid;
+  grid-template-columns: 1fr min(1440px, 94%) 1fr;
+  grid-template-rows: 96px auto 72px;
+}
+
+.custom_container > * {
+  grid-column: 2;
+}
+
+.custom_container > .fluid {
+  grid-column: 1/-1;
+} */
